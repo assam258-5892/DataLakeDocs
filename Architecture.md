@@ -27,6 +27,7 @@
 * JDBC로 DBMS의 Query를 조회하여 결과를 화면에 출력
 * JDBC로 DBMS의 Query의 결과 데이터형을 조회
 * JSON으로 전달된 Query를 JDBC로 수행하고 결과를 JSON으로 반환
+* JAR 파일의 재빌드 없이 JDBC Driver 추가로 새로운 RDBMS를 사용 가능
 
 ## Single Action
 
