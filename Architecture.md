@@ -53,7 +53,7 @@
 * RDBMS의 단일 테이블을 추출하여 RDBMS의 단일 테이블에 적재
 * RDBMS 단일 시스템의 쿼리를 수행
 * RDBMS 단일 시스템의 SQL Shell을 수행
-* OpenAPI 수집(HTTP) API 제공 및 Python List를 Hive 단일 테이블/파티션에 적재
+* OpenAPI 수집(HTTP) API 제공 및 Python 변수(List)를 Hive 단일 테이블/파티션에 적재
 * JDBC 비밀번호 암복호화
 
 ## Batch & HealthCheck
