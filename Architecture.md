@@ -18,9 +18,9 @@
 
 ## Primitive Operation
 
-* JDBC로 SELECT문을 수행 결과를 추출하여 SequenceFile로 HDFS에 적재
-* JDBC로 SELECT문을 수행 결과를 추출하여 CSV 파일로 저장
-* JDBC로 SELECT문을 수행 결과를 추출하여 JDBC로 DBMS의 테이블에 적재
+* JDBC로 SELECT문을 수행 후 결과를 추출하여 SequenceFile로 HDFS에 적재
+* JDBC로 SELECT문을 수행 후 결과를 추출하여 CSV 파일로 저장
+* JDBC로 SELECT문을 수행 후 결과를 추출하여 JDBC로 DBMS의 테이블에 적재
 * CSV 파일을 SequenceFile로 HDFS에 적재
 * CSV 파일을 JDBC로 DBMS의 INSERT문으로 적재
 * JDBC로 DBMS의 Product와 Version 조회
