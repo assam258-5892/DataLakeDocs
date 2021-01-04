@@ -18,7 +18,15 @@ Data Lake의 각 Layer는 다음의 기능을 수행한다.
 
 ## Primitive Operation
 
-* sdf
+* JDBC로 DBMS의 테이블을 추출하여 SequenceFile로 HDFS(Hive)에 적재
+* JDBC로 DBMS의 테이블을 추출하여 CSV 파일로 저장
+* JDBC로 DBMS의 테이블을 추출하여 JDBC로 DBMS의 테이블에 적재
+* CSV 파일을 SequenceFile로 HDFS(Hive)에 적재
+* CSV 파일을 JDBC로 DBMS의 테이블에 적재
+* JDBC로 DBMS의 Product와 Version 조회
+* JDBC로 DBMS의 Query를 조회
+* JDBC로 DBMS의 Query의 결과 데이터형을 조회
+* JSON으로 전달된 Query를 JDBC로 수행하고 결과를 JSON으로 반환
 
 ## Single Action
 
