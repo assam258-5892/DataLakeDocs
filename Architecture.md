@@ -53,10 +53,21 @@ Data Lake의 각 Layer는 다음의 기능을 수행한다.
 * RDBMS의 단일 테이블을 추출하여 RDBMS의 단일 테이블에 적재
 * RDBMS 단일 시스템의 쿼리를 수행
 * RDBMS 단일 시스템의 SQL Shell을 수행
+* OpenAPI 수집(HTTP) API 제공 및 Python List를 Hive 단일 테이블/파티션에 적재
 * JDBC 비밀번호 암복호화
 
 ## Batch & HealthCheck
 
+* Health Check로 사용 가능한 RuleDB(PostgreSQL), Hive Server, HDFS Name Server, Proxy(Apache2) Server를 선택
+* RDBMS에서 Hive로 복수의 시스템의 복수 테이블을 수집/적재
+* OpenAPI에서 Hive로 복수의 시스템의 수집/적재
+* 수집 결과를 Rule DB의 Log 테이블로 기록
+
 ## Scheduler
 
+* 정해진 시간에 Health Check와 Batch 수행
+* Batch 수행 실패 시 실패한 시스템/테이블만 Health Check와 Batch 재수행
+
 ## Dashboard
+
+* 수집 현황을 Web 화면으로 출력
