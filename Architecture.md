@@ -6,6 +6,10 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 
 ![Collect RDBMS](images/Collect%20RDBMS.svg)
 
+|**Step**|**명칭**|**설명**|
+|---|---|---|
+|1|메타데이터 수집||
+
 ## 외부 데이터 수집/적재 흐름
 
 ![Collect OpenAPI](images/Collect%20OpenAPI.svg)
