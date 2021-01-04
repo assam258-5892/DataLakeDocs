@@ -1,3 +1,13 @@
+# 수집/적재 흐름
+
+## 내부 데이터 수집/적재 흐름
+
+![Collect RDBMS](images/Collect%20RDBMS.svg)
+
+## 외부 데이터 수집/적재 흐름
+
+![Collect OpenAPI](images/Collect%20OpenAPI.svg)
+
 # Data Lake Architecture
 
 펜타시스템테크놀러지의 Data Lake의 구조은 아래와 같다.
