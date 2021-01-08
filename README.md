@@ -6,6 +6,12 @@
 - 수집 데이터크기 : 0.5 TB
 - 네트워크 전송량 : 1.5 TB (수집+적재+검증)
 
+## 수집 특성
+
+- CPU 1 Core당 초당 7MB 수집 및 10MB 적재
+- CPU 8 Core에서 8개 쓰레드로 수집/적재
+- 네트워크 사용량은 초당 In/Out 30~70MB 사이에서 변동
+
 # 개발 환경
 
 - Visual Studio Code (Remote Development)
