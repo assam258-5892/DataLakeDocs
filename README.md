@@ -25,6 +25,8 @@
 - Docker (Ubuntu+Python+JAVA+Hadoop+Hive+PostgreSQL+SQLite3)
 - GitHub (SourceControl+IssueTracker)
 
+※ Linux 및 Mac OS에서 Docker 없이 개발 가능하며, Windows에서는 Docker Container 상의 Linux에서 개발
+
 # 수집/적재 흐름
 
 ## 내부 데이터 수집/적재 흐름
