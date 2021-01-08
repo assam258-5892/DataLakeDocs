@@ -152,3 +152,9 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 ## 이슈 관리
 
 ![이슈 목록](images/IssueList.png)
+
+# 개발 환경
+
+- Visual Studio Code (Remote Development)
+- Docker (Ubuntu+Python+JAVA+Hadoop+Hive+PostgreSQL+SQLite3)
+- GitHub (SourceControl+IssueTracker)
