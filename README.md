@@ -1,12 +1,18 @@
-# 수집/적재 흐름
-
-## 해양경찰청 수집 결과
+# 해양경찰청 수집 결과
 
 - 소요시간 : 9000 초 (2:30)
 - 수집 테이블수 : 3000 개
 - 수집 레코드수 : 13억 레코드
 - 수집 데이터크기 : 0.5 TB
 - 네트워크 전송량 : 1.5 TB (수집+적재+검증)
+
+# 개발 환경
+
+- Visual Studio Code (Remote Development)
+- Docker (Ubuntu+Python+JAVA+Hadoop+Hive+PostgreSQL+SQLite3)
+- GitHub (SourceControl+IssueTracker)
+
+# 수집/적재 흐름
 
 ## 내부 데이터 수집/적재 흐름
 
@@ -152,9 +158,3 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 ## 이슈 관리
 
 ![이슈 목록](images/IssueList.png)
-
-# 개발 환경
-
-- Visual Studio Code (Remote Development)
-- Docker (Ubuntu+Python+JAVA+Hadoop+Hive+PostgreSQL+SQLite3)
-- GitHub (SourceControl+IssueTracker)
