@@ -138,8 +138,8 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 
 ## RDBMS 수집/적재
 
-- RuleDB 스키마 수정 - DB테이블ID 컬럼 제거 및 사용하지 않는 컬럼의 제거
-- CSV 파일 표기법 수정 - Null 데이터 및 Binary 데이터의 표현 방식 정의 및 Store/Load 시 정보의 누락 방지
+- (#1) RuleDB 스키마 수정 - DB테이블ID 컬럼 제거 및 사용하지 않는 컬럼의 제거
+- (#38) CSV 파일 표기법 수정 - Null 데이터 및 Binary 데이터의 표현 방식 정의 및 Store/Load 시 정보의 누락 방지
 - Hive의 Binary 데이터 추출 오류 - 문자형으로 표현할 수 없는 데이터에 추출 시 데이터 오변환
 - 수집/적재 방식 Refactoring
 - 원천 RDBMS 접속 정보 이중화
