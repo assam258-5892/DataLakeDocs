@@ -133,6 +133,7 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 
 - 정해진 시간에 Health Check와 Batch 수행
 - Batch 수행 실패 시 실패한 시스템/테이블만 Health Check와 Batch 재수행
+- 수행이 종료되면 수집 결과를 정리
 
 ## Dashboard
 
