@@ -260,6 +260,6 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 
 ## 이슈 관리
 
-위의 함목들은 GitHub의 이슈로 등록하여 Project에서 Kanban으로 관리하여 진
+위의 함목들은 GitHub의 이슈로 등록하여 Project에서 Kanban으로 관리하여 진행한다.
 
 ![이슈 목록](images/IssueList.png)
