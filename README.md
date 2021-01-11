@@ -33,6 +33,7 @@
 
 |**라인수**|**파일명**|
 |---:|---|
+|299|openapi/openapi.py|
 |428|src/batchresult.py|
 |366|src/batchrun.py|
 |42|src/csv2jdbc.py|
@@ -69,7 +70,7 @@
 |45|src/load02.py|
 |59|src/load03.py|
 |52|src/secret.py|
-|4281|합계|
+|4580|합계|
 
 ### JAVA
 
