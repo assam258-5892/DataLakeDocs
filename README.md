@@ -27,6 +27,60 @@
 
 ※ Linux 및 Mac OS에서 Docker 없이 개발 가능하며, Windows에서는 Docker Container 상의 Linux에서 개발
 
+## SLOC
+
+|**라인수**|**파일명**|
+|---:|---|
+|428|src/batchresult.py|
+|366|src/batchrun.py|
+|42|src/csv2jdbc.py|
+|59|src/csv2seqfile.py|
+|105|src/csvutil.py|
+|219|src/healthcheck.py|
+|67|src/hive2csv.py|
+|99|src/hiveanalyze.py|
+|121|src/hiveclearpartition.py|
+|90|src/hivecount.py|
+|80|src/hivecreate.py|
+|104|src/hivecreatepartition.py|
+|85|src/hivedrop.py|
+|104|src/hivedroppartition.py|
+|92|src/hivelistpartition.py|
+|35|src/hivequery.py|
+|50|src/hiveshell.py|
+|80|src/hivetruncate.py|
+|163|src/hiveverify.py|
+|43|src/jdbc2csv.py|
+|85|src/jdbc2hadoop.py|
+|92|src/jdbc2jdbc.py|
+|77|src/jdbc2json.py|
+|109|src/jdbc2seqfile.py|
+|342|src/jdbcconf.py|
+|80|src/jdbccount.py|
+|35|src/jdbcquery.py|
+|54|src/jdbcshell.py|
+|79|src/jdbctruncate.py|
+|35|src/jdbctypes.py|
+|260|src/jdbcutil.py|
+|39|src/jdbcversion.py|
+|45|src/load01.py|
+|45|src/load02.py|
+|59|src/load03.py|
+|52|src/secret.py|
+|4281|합계|
+
+|**라인수**|**파일명**|
+|---:|---|
+|204|csv2jdbc/Application.java|
+|173|csv2seqfile/Application.java|
+|281|jdbc2csv/Application.java|
+|258|jdbc2jdbc/Application.java|
+|277|jdbc2json/Application.java|
+|396|jdbc2seqfile/Application.java|
+|109|types/Application.java|
+|266|version/Application.java|
+|1964|합계|
+
 # 수집/적재 흐름
 
 ## 내부 데이터 수집/적재 흐름
