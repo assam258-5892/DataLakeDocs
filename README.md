@@ -27,7 +27,9 @@
 
 ※ Linux 및 Mac OS에서 Docker 없이 개발 가능하며, Windows에서는 Docker Container 상의 Linux에서 개발
 
-## SLOC
+## Source lines of code
+
+### Python
 
 |**라인수**|**파일명**|
 |---:|---|
@@ -68,6 +70,8 @@
 |59|src/load03.py|
 |52|src/secret.py|
 |4281|합계|
+
+### JAVA
 
 |**라인수**|**파일명**|
 |---:|---|
