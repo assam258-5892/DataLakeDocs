@@ -202,7 +202,7 @@ Data Lake의 RDBMS 데이터 수집 절차는 아래와 같다.
 
 - **(#3) 제품명에 따른 명칭 수정**
 - **(#36) Docker 개발용 Image 작성**
-- ~~(#37) Docker 홍보용 Image 작성~~
+- **(#37) Docker 홍보용 Image 작성**
 
 ## 이슈 관리
 
