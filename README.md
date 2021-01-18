@@ -6,14 +6,6 @@
 - 수집 데이터크기 : 0.5 TB
 - 네트워크 전송량 : 1.5 TB (수집+적재+검증)
 
-```uml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
-```
-
 ## 수집 성능
 
 - CPU 1 Core당 7MB/sec 수집 및 10MB/sec 적재
